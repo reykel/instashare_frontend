@@ -21,6 +21,10 @@ This project is at an early stage of the development process. As a work-in-progr
 
 Next step is running the application using the serve script and navigate to **http://localhost:8080/** to view the application.</p>
 
+## Application testing
+
+1. Type `npm run test` to run the testing set.
+
 ## Structure
 
 InstaShare System Frontend consists of 2 main parts; the application layout and the resources:
