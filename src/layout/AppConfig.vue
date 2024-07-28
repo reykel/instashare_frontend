@@ -47,7 +47,7 @@ Pusher.logToConsole = false;
 const pusher = new Pusher(PUSHER_APP_KEY, {
     cluster: 'us2',
     forceTLS: true,
-    authEndpoint: process.env.NODE_ENV === 'production' ? 'https://pulpafruit.store/api/broadcasting/auth' : 'http://api.instashare.local/api/broadcasting/auth',
+    authEndpoint: process.env.NODE_ENV === 'production' ? 'https://devblackstone.com/api/broadcasting/auth' : 'http://api.instashare.local/api/broadcasting/auth',
     auth: {
         headers: {
             Authorization: 'Bearer ' + store.getters.token,

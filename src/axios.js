@@ -2,7 +2,7 @@ import axios from "axios";
 import store from "./store/index";
 import router from "./router"
 
-axios.defaults.baseURL = (process.env.NODE_ENV === 'production' ? 'https://pulpafruit.store/api/' : 'http://api.instashare.local/api/')
+axios.defaults.baseURL = (process.env.NODE_ENV === 'production' ? 'https://devblackstone.com/api/' : 'http://api.instashare.local/api/')
 axios.defaults.withCredentials = true;
 
 axios.interceptors.request.use(

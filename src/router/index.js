@@ -113,14 +113,6 @@ const router = createRouter({
                     }, 
                 },
                 {
-                    path : '/managetokens',
-                    name : 'ManageTokens',
-                    component: () => import('../views/ManageTokens.vue'),
-                    meta:{
-                        requiresPermission: "system-admin"
-                    }, 
-                },
-                {
                     path : '/manageusers',
                     name : 'ManageUsers',
                     component: () => import('../views/ManageUsers.vue'),

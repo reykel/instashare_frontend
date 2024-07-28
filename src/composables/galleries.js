@@ -15,10 +15,10 @@ export default function useGalleries(){
         }
     }
 
-    const retrieveFile = async () => {
+    const retrieveFile = async (id) => {
         errors.value = ''
         try{
-            let response = await axios.post('retrieve')
+            let response = await axios.get('retrieve/' + id)
             myFiles.value = response.data
         } catch (e){
             errors.value = e.response.data

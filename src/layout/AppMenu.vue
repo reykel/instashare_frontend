@@ -28,7 +28,6 @@
             to: "/productos",
             visible: store.getters.scopes.indexOf("client-admin") > -1,
         },
-            { label: "Tokens", icon: "pi pi-fw pi-unlock", to: "/managetokens", visible: store.getters.scopes.indexOf("system-admin") > -1 },
             { label: "Users", icon: "pi pi-fw pi-users", to: "/manageusers", visible: store.getters.scopes.indexOf("system-admin") > -1 },
             { label: "Access Logs", icon: "pi pi-fw pi-user-minus", to: "/access-logs", visible: store.getters.scopes.indexOf("system-admin") > -1 },
             { label: "Actions Logs", icon: "pi pi-fw pi-user-minus", to: "/audit-actions", visible: store.getters.scopes.indexOf("system-admin") > -1 },
